@@ -47,10 +47,12 @@ int main() {
 }
 
 /*
-When should we use values, pointers, or references?
 Which ones compiles?
     Foo x;
     Foo* x;
     Foo& x;
+
+When should we use values, pointers, or references?
+How to init variable depending on condition?
 */
 

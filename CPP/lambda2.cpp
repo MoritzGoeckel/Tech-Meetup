@@ -11,7 +11,7 @@ int main() {
 
     // Allocate a kb and clean up
     auto f = new char[1024];
-    delete f;
+    delete[] f;
 
     x(2);
 

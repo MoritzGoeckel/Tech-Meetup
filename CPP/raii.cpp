@@ -7,10 +7,16 @@ class Vector {
    private:
     char* data;
     size_t size;
+    size_t byteSize;
 
    public:
     Vector() : data(new char[10]), size(10) {
         // the constructor acquires the resource
+    }
+
+    Vector(const Vector& other)
+        : data(new char[other.byteSize]), size(other.size) {
+        std::memcpy(other.data, data, other.byteSize);
     }
 
     void resize(size_t new_size) {

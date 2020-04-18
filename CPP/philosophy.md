@@ -1,6 +1,8 @@
 Programmers should be free to pick their own programming
 style, and that style should be fully supported by C++.
 
+*-> Multiparadigm (Procedural, Object Oriented, Functional)*
+
 Allowing a useful feature is more important than preventing
 every possible misuse of C++.
 
