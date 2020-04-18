@@ -1,5 +1,8 @@
 # Agenda
 
+Part 0
+- Philosophy
+
 Part I
 - Main
 - Compiler
