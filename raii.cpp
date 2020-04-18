@@ -40,6 +40,9 @@ int main() {
     std::cout << "Sizeof stdvec=" << sizeof(stdvec) << std::endl;
 
     // What is the output?
+    // What is the size of 'data' and 'size'?
 
     return 0;
 };
+
+// What happens if we inherit from Vector?

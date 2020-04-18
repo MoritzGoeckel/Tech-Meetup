@@ -21,7 +21,12 @@ Part IV
 - RAII
 - Pointer / Data Types
 - Reinterpret Cast
+- Lambda
+- Undefined Behaviour
 
 Part V
 - Templates
 - Preprocessor
+
+Part VI
+- Questions / Discussion

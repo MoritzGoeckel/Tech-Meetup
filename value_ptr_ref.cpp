@@ -45,3 +45,12 @@ int main() {
     Foo& fref = f;
     std::cout << fref.getA() << std::endl;
 }
+
+/*
+When should we use values, pointers, or references?
+Which ones compiles?
+    Foo x;
+    Foo* x;
+    Foo& x;
+*/
+
